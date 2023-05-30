@@ -21,7 +21,7 @@
 
 ![architecture diagram final](https://github.com/Capstone-L2K/CloudTicket/assets/84276596/446c838b-7040-4bff-b313-ff5e2e986019)
 
-저희 팀은 AWS Lambda를 이용한 Serverless 아키텍처와 Django를 이용한 Infrastructure 서버 아키텍처로 서버를 구성했습니다. 서버리스 아키텍처에서 구현한 API는 Lambda 함수를 통해 모듈식 개발을 할 수 있으며, 이러한 이점은 소프트웨어 개발을 애자일하게 할 수 있도록 돕고, 추후 해당 서비스의 확장을 용이하게 합니다. 또한 티켓팅 시스템은 특정 시간에 사람이 많이 몰릴 수 있다는 점을 고려하여, Django 개발 후 EC2 배포 및 Elastic Load Balancing을 이용해 트래픽 분산을 시도하게 됩니다. 프론트엔드에서는 React 를 사용한 SPA 를 구성해 CSR 방식으로 화면을 렌더링하며, AWS Cloudfront 에 동적 웹사이트를 호스팅하게 됩니다.
+저희 팀은 AWS Lambda를 이용한 Serverless 아키텍처와 Django를 이용한 Infrastructure 서버 아키텍처로 서버를 구성했습니다. 서버리스 아키텍처에서 구현한 API는 Lambda 함수를 통해 모듈식 개발을 할 수 있으며, 이러한 이점은 소프트웨어 개발을 애자일하게 할 수 있도록 돕고, 추후 해당 서비스의 확장을 용이하게 합니다. 또한 티켓팅 시스템은 특정 시간에 사람이 많이 몰릴 수 있다는 점을 고려하여, SpringBoot로 개발 후 EC2 배포 및 Elastic Load Balancing을 이용해 트래픽 분산을 시도하게 됩니다. 프론트엔드에서는 React 를 사용한 SPA 를 구성해 CSR 방식으로 화면을 렌더링하며, AWS Cloudfront 에 동적 웹사이트를 호스팅하게 됩니다.
 
 ## 백엔드
 
