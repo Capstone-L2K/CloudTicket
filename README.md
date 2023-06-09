@@ -29,7 +29,7 @@
 
 AWS의 Lambda 함수, API gateway, S3, RDS 등을 이용하여 백엔드를 개발했습니다. 
 
-github의 repository에는 기록 용도로 일부 Lambda 함수 코드를 옮겼습니다. 
+github의 repository에는 기록 용도로 일부 Lambda 함수 코드만을 확인할 수 있습니다. 개발환경은 AWS 계정에 존재합니다. 
 
 
 ## 프론트엔드
