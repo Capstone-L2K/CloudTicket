@@ -36,3 +36,4 @@ github의 repository에는 기록 용도로 일부 Lambda 함수 코드만을 �
 
 ### [프론트엔드 repository](https://github.com/Capstone-L2K/cloud-ticket-client)
 
+REACT를 사용한 SPA 어플리케이션을 개발했습니다.
